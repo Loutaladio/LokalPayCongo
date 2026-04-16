@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* == Site Vitrine LokalPay Congo code 2026 LOUTALADIO Danick Arcel */
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ======== HEADER ======== */
+
+#Header {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 71, 171, 0.05);
+}
+
+.Contenaire-Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.Logo-LokalPayCongo h2 {
+    color: #0047AB;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Navigation nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 0;
+}
+
+.Navigation nav ul li {
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Navigation nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.Navigation nav ul li a:hover {
+    color: #0047AB;
+}
+
+.Navigation button {
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Navigation button:hover {
+    background-color: #E68A00;
+    transform: translateY(-2px);
+}
+
+.Menu-Burger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 101;
+}
+
+.Menu-Burger img {
+    width: 28px;
+    height: 28px;
+}
+
+/* ======== HERO SECTION ======== */
+
+#Hero-section {
+    background: linear-gradient(135deg, #0047AB 0%, #003580 100%);
+    color: white;
+    padding: 60px 20px;
+}
+
+#img-hero {
+    max-width: 100%;
+    width: 400px;
+  
+}
+
+.Home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Home-page .text {
+    flex: 1;
+    max-width: 550px;
+}
+
+.Home-page h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.Home-page p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.95;
+    line-height: 1.5;
+}
+
+.Home-page button {
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 153, 0, 0.3);
+}
+
+.Home-page button:hover {
+    background-color: #E68A00;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(255, 153, 0, 0.4);
+}
+
+.Home-page img {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+}
+
+/* ======== SECTIONS ======== */
+
+.contenaire {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #0047AB;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+/* ======== PROBLEME SECTION ======== */
+
+#Probleme {
+    background-color: #f9f9f9;
+}
+
+#Probleme .contenaire p {
+    color: #666;
+    text-align: center;
+}
+
+/* ======== SOLUTION SECTION ======== */
+
+#Solution {
+    background-color: #fff;
+}
+
+.Liste-Etapes {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Liste-Etapes span {
+    flex: 1;
+    min-width: 300px;
+    background: linear-gradient(135deg, #0047AB 0%, #003580 100%);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 71, 171, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Liste-Etapes span:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 71, 171, 0.2);
+}
+
+.Liste-Etapes h3 {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* ======== BLOCKCHAIN SECTION ======== */
+
+#Blockchain {
+    background-color: #f9f9f9;
+}
+
+/* ======== QUI/WHAT SECTION ======== */
+
+#QuiWhat {
+    background-color: #fff;
+}
+
+.Urilisateurs {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Urilisateurs > div {
+    flex: 1;
+    min-width: 280px;
+    background: white;
+    padding: 25px;
+    border-left: 4px solid #FF9900;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+}
+
+.Urilisateurs > div:hover {
+    box-shadow: 0 6px 20px rgba(0, 71, 171, 0.1);
+    transform: translateY(-3px);
+}
+
+/* ======== IMPACT & EQUIPE SECTION ======== */
+
+#Impact-And-Equipe {
+    background-color: #f9f9f9;
+}
+
+#Impact-And-Equipe .contenaire {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Impact-And-Equipe > div {
+    flex: 1;
+    min-width: 300px;
+}
+
+#Impact-And-Equipe h2 {
+    color: #0047AB;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#Impact-And-Equipe ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+#Impact-And-Equipe ul li {
+    padding: 12px 0;
+    color: #555;
+    font-size: 16px;
+    padding-left: 25px;
+    position: relative;
+}
+
+#Impact-And-Equipe ul li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #FF9900;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Team-Members {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.Team-Member {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.Team-Member:hover {
+    box-shadow: 0 6px 20px rgba(0, 71, 171, 0.15);
+    transform: translateY(-5px);
+}
+
+.Team-Member-Avatar {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #0047AB 0%, #003580 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    margin: 0 auto 15px;
+    font-weight: 700;
+    overflow: hidden;
+    border: 3px solid #FF9900;
+}
+
+.Team-Member-Avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Team-Member-Name {
+    font-weight: 600;
+    color: #0047AB;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.Team-Member-Role {
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* ======== FOOTER ======== */
+
+#Footer {
+    background-color: #0047AB;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contenaire-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.contenaire-footer p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* ======== RESPONSIVE DESIGN ======== */
+
+@media (max-width: 768px) {
+    
+    /* Header Mobile */
+    .Contenaire-Header {
+        flex-direction: row;
+        gap: 0;
+        padding: 10px 15px;
+        justify-content: space-between;
+    }
+
+    .Menu-Burger {
+        display: block;
+    }
+
+    .Navigation {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        z-index: 100;
+    }
+
+    .Navigation.active {
+        max-height: 400px;
+    }
+
+    .Navigation nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: left;
+    }
+
+    .Navigation nav ul li {
+        padding: 5px 0;
+        border: none;
+    }
+
+    .Navigation nav ul li a {
+        color: #0047AB;
+        font-weight: 500;
+    }
+
+    .Navigation button {
+        width: 100%;
+        background-color: #FF9900;
+    }
+
+    /* Hero Section Mobile */
+    .Home-page {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 0;
+    }
+
+    .Home-page h1 {
+        font-size: 32px;
+    }
+
+    .Home-page p {
+        font-size: 16px;
+    }
+
+    /* Solutions Mobile */
+    .Liste-Etapes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Liste-Etapes span {
+        min-width: 100%;
+    }
+
+    /* Team Mobile */
+    .Team-Members {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .Team-Member {
+        min-width: 120px;
+        padding: 15px;
+    }
+
+    .Team-Member-Avatar {
+        width: 70px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    /* Sections */
+    section {
+        padding: 40px 15px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    #Impact-And-Equipe .contenaire {
+        gap: 30px;
+    }
+
+    /* Utilisateurs Mobile */
+    .Urilisateurs {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .Urilisateurs > div {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    /* Header Extra Small */
+    .Logo-LokalPayCongo h2 {
+        font-size: 20px;
+    }
+
+    .Navigation nav ul {
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .Navigation button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    /* Hero Extra Small */
+    .Home-page h1 {
+        font-size: 24px;
+    }
+
+    .Home-page p {
+        font-size: 14px;
+    }
+
+    /* Sections Extra Small */
+    section h2 {
+        font-size: 24px;
+    }
+
+    .Liste-Etapes span {
+        padding: 20px;
+    }
+
+    .Liste-Etapes h3 {
+        font-size: 16px;
+    }
+
+    #Impact-And-Equipe h2 {
+        font-size: 22px;
+    }
+
+    .Team-Member {
+        min-width: 100px;
+        padding: 12px;
+    }
+
+    .Team-Member-Avatar {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .Team-Member-Name {
+        font-size: 12px;
+    }
+}
